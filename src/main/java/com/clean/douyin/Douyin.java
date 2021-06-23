@@ -52,8 +52,7 @@ public class Douyin {
 
 
     public static void main(String[] args) throws IOException {
-        String msgFromDouyin = "28日，河南郑州，#摊主故意掰烂包子送农民工 ：他们人很好，不想伤别人自尊 #我为中国强  " +
-                "https://v.douyin.com/JCywF8S/ 复制此链接，打开抖音搜索，直接观看视频！";
+        String msgFromDouyin = "大家帮我们看看昨天去看的房，两居室的那个房子看中了，就是周边不咋地，有懂的吗？#沪漂 #买房 #宝妈分享  https://v.douyin.com/JbKWX3g/ 复制此链接，打开抖音搜索，直接观看视频！";
         Douyin.downloadVideo(msgFromDouyin, "D:\\");
 
         ApiResult apiResult = Douyin.fetchVideoScheme(msgFromDouyin);
